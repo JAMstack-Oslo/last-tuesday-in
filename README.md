@@ -1,5 +1,4 @@
-@jamstack-oslo/last-tuesday-in
-==============================
+# last-tuesday-in
 
 show the last tuesdays
 
