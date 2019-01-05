@@ -1,0 +1,44 @@
+{
+  "name": "@jamstack-oslo/last-tuesday-in",
+  "description": "show the last tuesdays",
+  "version": "0.0.0",
+  "author": "Alexander Alemayhu @scanf",
+  "bin": {
+    "last-tuesday-in": "./bin/run"
+  },
+  "bugs": "https://github.com/JAMstack-Oslo/last-tuesday-in/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2"
+  },
+  "devDependencies": {
+    "@oclif/test": "^1",
+    "chai": "^4",
+    "eslint": "^5.5",
+    "eslint-config-oclif": "^3.1",
+    "mocha": "^5",
+    "nyc": "^13"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/JAMstack-Oslo/last-tuesday-in",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "last-tuesday-in"
+  },
+  "repository": "JAMstack-Oslo/last-tuesday-in",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\""
+  }
+}
