@@ -10,8 +10,8 @@ show the last tuesdays
 
 ## Installation
 
-  npm install @jamstack-oslo/last-tuesday-in
+    npm install @jamstack-oslo/last-tuesday-in
 
 ## Usage
 
-  last-tuesday-in
+    last-tuesday-in
