@@ -1,7 +1,7 @@
 {
   "name": "@jamstack-oslo/last-tuesday-in",
   "description": "show the last tuesdays",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Alexander Alemayhu @scanf",
   "bin": {
     "last-tuesday-in": "./bin/run"
